@@ -1,3 +1,8 @@
+/* Global font and fallback font */
+* {
+    font-family: monospace, sans-serif;
+}
+
 /* Center our primary titles. Only using h1 element for that purpose so a type selector shouldn't conflict */
 h1 {
     text-align: center;
@@ -15,4 +20,5 @@ div.index {
 
 .back {
     background-color: red;
+    color: black;
 }
